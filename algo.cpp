@@ -47,7 +47,7 @@ public:
         
         
         while (infile >> ticker >> time >> color) {
-            if (time >= 17) {
+            if (time >= 16) {
                 cout << "Market closed.\n";
                 exit(0);
             }
